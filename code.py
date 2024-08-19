@@ -18,7 +18,7 @@ start_time = time.time()
 pen = turtle.Turtle()
 pen.hideturtle()
 pen.color("white")
-pen.up
+pen.up()
 pen.clear()
 
 pen.speed(100)
@@ -27,7 +27,6 @@ pen.write(f"clicks: {clicks}", align="center", font=("Courier New", 32, "normal"
 
 luffy = turtle.Turtle()
 luffy.shape("luffy.gif")
-luffy.penup
 luffy.speed(0)
 RCo = random.randint(-300,300)
 luffy.goto(RCo,RCo)
